@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.w-20 {
+  width: 20%;
+  padding: 10px;
+}
+
+.w-30 {
+  width: 30%;
+  padding: 10px;
+}
+
+.w-33 {
+  width: 33%;
+  padding: 12px;
+}
+
+.w-50 {
+  width: 50%;
+  padding: 10px;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+header {
+  background-color: #16171b;
+  height: 80px;
+  padding: 20px;
+}
+header .menu ul li a {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding: 0 30px;
+}
+
+.slider {
+  background-image: url("../img/banner-6.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  padding: 70px 0 0 0;
+}
+.slider h1 {
+  color: white;
+  font-size: 43px;
+  font-family: "Open Sans";
+}
+.slider span {
+  color: #f48843;
+  font-size: 43px;
+  font-family: "Open Sans";
+}
+.slider p {
+  font-size: 17px;
+  color: white;
+  font-family: "Playfair Display";
+  font-style: italic;
+  padding: 30px 0 0 0;
+}
+
+.book {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  box-shadow: 1px 2px 40px 1px rgba(0, 0, 0, 0.273);
+  margin-top: -70px;
+  padding: 45px;
+}
+.book .list {
+  border: 2px solid rgba(0, 0, 0, 0.311);
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+.book button {
+  width: 180px;
+  height: 45px;
+  background-color: #f48843;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 12px;
+  color: white;
+  border: none;
+}
+
+.sec-title {
+  text-align: center;
+  padding: 150px 0 0;
+}
+.sec-title h2 {
+  color: #222222;
+  font-size: 36px;
+  font-family: "Open Sans";
+  margin: 0 0 30px;
+}
+.sec-title span {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: #555555;
+  font-style: italic;
+}
+.sec-title img {
+  margin: 30px 0 0 0;
+}
+
+.service {
+  text-align: center;
+  padding: 50px 0 0;
+}
+.service .service-box i {
+  font-size: 80px;
+  color: #f48843;
+}
+.service h3 {
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: #222222;
+  margin: 40px 0 0;
+}
+.service p {
+  font-size: 15px;
+  color: #555555;
+  font-family: "Open Sans";
+  margin: 25px 0 10px;
+}
+
+.zone {
+  background-color: rgba(85, 85, 85, 0.1019607843);
+  padding: 120px 0;
+}
+.zone h2 {
+  font-size: 36px;
+  color: #222222;
+  font-family: "Open Sans";
+  padding: 0 0 10px 100px;
+}
+.zone span {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: #555555;
+  font-style: italic;
+  padding: 0 0 10px 100px;
+}
+.zone p {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #555555;
+  padding: 20px 0 10px 100px;
+}
+.zone button {
+  width: 180px;
+  height: 45px;
+  background-color: #f48843;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 12px;
+  color: white;
+  border: none;
+  margin: 20px 0 10px 100px;
+}
+
+.populer {
+  margin: 50px 0 50px 0;
+}
+.populer .populer-service {
+  text-align: center;
+  padding: 0 0 30px;
+}
+.populer .populer-service img {
+  width: 100%;
+}
+.populer .populer-service h3 {
+  font-size: 24px;
+  color: #222222;
+  font-family: "Open Sans";
+  padding: 10px 0 0 0;
+}
+.populer .populer-service .icon img {
+  width: 100px;
+}
+.populer .populer-service span {
+  color: #555555;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+.famous .famous1 img {
+  width: 100%;
+  height: 519px;
+  padding: 0 10px 0 0;
+}
+.famous .famous2 {
+  background-image: url("../img/bg-famous-locations.jpg");
+  width: 100%;
+  height: 519px;
+  background-size: cover;
+  padding: 80px 50px;
+}
+.famous h3 {
+  font-size: 32px;
+  font-family: "Open Sans";
+  color: white;
+  padding: 0 0 25px;
+}
+.famous h2 {
+  font-size: 33px;
+  font-family: "Playfair Display";
+  color: white;
+  font-style: italic;
+  padding: 0 0 20px;
+}
+.famous p {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: white;
+  font-style: italic;
+  margin: 10px 0;
+}
+.famous button {
+  width: 180px;
+  height: 45px;
+  background-color: #f48843;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 12px;
+  color: white;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #f48843;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+.famous .read i {
+  color: white;
+  font-size: 30px;
+}
+
+.clients {
+  color: #555555;
+  font-size: 18px;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 60px 0 0 0;
+}
+.clients p {
+  color: #555555;
+  font-size: 18px;
+  font-family: "Open Sans";
+  line-height: 5px;
+}
+.clients span {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  font-style: italic;
+  color: #f48843;
+  line-height: 60px;
+}
+
+.client-detail .round img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 30px 20px 90px 20px;
+}
+
+.beach {
+  background-image: url("../img/bg-stuning-beachs.jpg");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  text-align: center;
+  padding: 120px 0;
+}
+.beach h2 {
+  font-size: 36px;
+  color: white;
+  font-family: "Open Sans";
+  margin: 0 0 30px;
+}
+.beach p {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  font-style: italic;
+  color: white;
+  margin: 0 0 30px;
+}
+.beach button {
+  width: 180px;
+  height: 45px;
+  background-color: #f48843;
+  font-size: 15px;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 12px;
+  color: white;
+  border: none;
+}
+
+.gallery {
+  margin: 60px 0 0 0;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.website {
+  margin: 50px 0 100px 0;
+}
+.website img {
+  width: 100%;
+}
+
+.subscribe {
+  background-color: #f4b843;
+  width: 100%;
+  height: 286px;
+  padding: 80px;
+}
+.subscribe h2 {
+  font-size: 36px;
+  color: white;
+  font-family: "Open Sans";
+  margin: 0 0 30px;
+}
+.subscribe span {
+  font-size: 18px;
+  color: white;
+  font-family: "Playfair Display";
+  font-style: italic;
+}
+.subscribe .subscribe-btn {
+  width: 520px;
+  height: 60px;
+  background-color: white;
+  line-height: 60px;
+  font-family: "Open Sans";
+  color: rgba(22, 23, 27, 0.3215686275);
+  padding: 0 0 0 20px;
+}
+.subscribe i {
+  color: #16171b;
+  padding: 20px;
+}
+
+footer {
+  background-image: url("../img/bg-footer.jpg");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  padding: 100px 0 100px 0;
+}
+footer p {
+  color: #cccccc;
+  font-size: 14px;
+  font-family: "Open Sans";
+  margin: 30px 0 20px 0;
+  line-height: 30px;
+}
+footer .icons i {
+  color: #999999;
+  font-size: 20px;
+  padding: 0 20px 0 0;
+}
+footer h3 {
+  font-size: 18px;
+  color: white;
+  font-family: "Open Sans";
+  margin: 0 0 20px;
+}
+footer ul li {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #cccccc;
+  padding: 10px 0;
+}
+
+.footer {
+  background-color: #16171b;
+  height: 70px;
+  line-height: 70px;
+}
+.footer .text p {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 15px;
+}
+.footer .menu ul li {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding: 0 20px;
+}/*# sourceMappingURL=style.css.map */
